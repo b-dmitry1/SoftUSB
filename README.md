@@ -10,6 +10,8 @@ Soft low-speed USB host for ARM microcontrollers.
 - Character and scancode buffers for "getch()" and "kbhit()".
 - Provides mouse coordinates, buttons, and wheel.
 
+![schematic](pictures/sch.png)
+
 ## Usage
 ```cpp
 // Define USB host on PORTB.14 (d-) and PORTB.15 (d+)
